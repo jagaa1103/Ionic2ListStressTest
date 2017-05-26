@@ -1,26 +1,16 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+It's simple Ionic2 project. 
 
-## How to use this template
+## Try List
 
 *This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/driftyco/ionic2-app-base).
 
 To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/driftyco/ionic2-app-base).
 
-### With the Ionic CLI:
+### I need list with 1000+ items:
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
-
-Then, to run it, cd into `myBlank` and run:
+Our company develop ionic mobile app. It's works with thermometer device.
+Device sends lot of temperature data to mobile and in mobile side shows list of data. 
 
 ```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
+1 minute * 60 * 24 hours = 1440 items on my list :()
 ```
-
-Substitute ios for android if not on a Mac.
-
