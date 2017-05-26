@@ -12,3 +12,10 @@ Device sends lot of temperature data to mobile and in mobile side shows list of 
 ```bash
 1 minute * 60 * 24 hours = 1440 items on my list :()
 ```
+
+## Done
+
+It's simple but really impressive test for me (tested on GalaxyS4, Android 5.0.1). 
+if you run on old phone it's very slow create 1000 and 10000 items on list.
+
+For my case I chose virtualscroll. It's little bit blank screen when I scroll quickly. But it's better than using ngFor. 
