@@ -7,8 +7,24 @@
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  
+  <button ion-button (click)="createVirtualList()">virtual list {{virtual_items.length}}</button>
+  <button ion-button (click)="createNormalList()">normal list {{normal_items.length}}</button>
+  <button ion-button color="danger" (click)="clearList()">clear</button>
+
+  <ion-list [virtualScroll]="virtual_items">
+    <ion-item *virtualItem="let v_item">
+      <h2>{{v_item.title}}</h2>
+      <p>{{v_item.desc}}</p>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-item *ngFor="let n_item of normal_items">
+      <h2>{{n_item.title}}</h2>
+      <p>{{n_item.desc}}</p>
+    </ion-item>
+  </ion-list>
+
+
 </ion-content>
